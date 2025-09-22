@@ -938,7 +938,7 @@
 
   #LinkList3 ul li:first-child {
       background-color: var(--main-color);
-      padding: 12px 20px;
+      padding: 10px 15px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -6298,6 +6298,7 @@
       }
 
   }
+
 
 
 
