@@ -6031,7 +6031,7 @@
       transform: translateY(-50%);
       width: 50px;
       height: 50px;
-      background: #00000061;
+      background: #00000051;
       color: white;
       display: flex;
       align-items: center;
@@ -6044,7 +6044,7 @@
   }
 
   .vivid-fullscreen .fullscreen-main-nav:hover {
-      background: rgba(255, 255, 255, 0.35);
+      background: #00000081;
       transform: translateY(-50%) scale(1.1);
   }
 
@@ -6298,6 +6298,7 @@
       }
 
   }
+
 
 
 
