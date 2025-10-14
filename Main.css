@@ -2318,19 +2318,6 @@ body.vivid-fullscreen-active #SecondaryHeader {
     animation: pulse 2s infinite;
 }
 
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.4);
-    }
-
-    70% {
-        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
-    }
-
-    100% {
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-    }
-}
 
 #CheckoutPage .next-button:hover {
     background: #4338ca;
@@ -5940,4 +5927,5 @@ body.vivid-fullscreen-active #SecondaryHeader {
     background: linear-gradient(to right, #2563eb, #3b82f6);
     transition: width 0.3s ease;
 }
+
 
