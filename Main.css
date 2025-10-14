@@ -2318,6 +2318,19 @@ body.vivid-fullscreen-active #SecondaryHeader {
     animation: pulse 2s infinite;
 }
 
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.4);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
 
 #CheckoutPage .next-button:hover {
     background: #4338ca;
@@ -5854,7 +5867,7 @@ body.vivid-fullscreen-active #SecondaryHeader {
 }
 
 .back-to-top::after {
-    content: &#39;&#39;;
+    content: '';
     position: absolute;
     top: -5px;
     left: -5px;
@@ -5872,10 +5885,10 @@ body.vivid-fullscreen-active #SecondaryHeader {
 
 .back-to-top:hover::after {
     opacity: 1;
-    animation: pulse 1.5s infinite;
+    animation: pulse-btt 1.5s infinite;
 }
 
-@keyframes pulse {
+@keyframes pulse-btt {
     0% {
         transform: scale(1);
         opacity: 0.8;
