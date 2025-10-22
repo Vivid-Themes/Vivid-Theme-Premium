@@ -2461,3 +2461,41 @@ bottom: 25px;
         font-size: 11px;
     }
 }
+
+/* Responsive styles for 567px breakpoint */
+@media screen and (max-width: 567px) {
+    .back-to-top {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .progress-circle {
+        r: 20;
+        stroke-dasharray: 126;
+        stroke-dashoffset: 126;
+    }
+    
+    .back-to-top:hover {
+        transform: translateY(-3px) scale(1.03);
+    }
+}
+
+/* For very small screens under 400px */
+@media screen and (max-width: 400px) {
+    .back-to-top {
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .progress-circle {
+        r: 18;
+        stroke-dasharray: 113;
+        stroke-dashoffset: 113;
+    }
+}
