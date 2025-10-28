@@ -1,3 +1,5 @@
+/*------------------- Main Css ----------------------*/
+
 .vivid-post-homepage-view .product-footer {
     height: 0px;
     overflow: hidden;
@@ -3043,7 +3045,6 @@ body.vivid-fullscreen-active #SecondaryHeader {
     overflow: hidden;
     padding: 50px;
     box-sizing: border-box;
-    max-width: var(--max-width);
 }
 
 #VividHeaderSlider .widget {
@@ -4500,8 +4501,6 @@ body.vivid-fullscreen-active #SecondaryHeader {
     background-color: #f8f8f8;
     padding: 20px 0px;
     padding-bottom: 60px;
-    max-width: var(--max-width);
-    margin: 80px auto;
 }
 
 #LinkList5 .widget-title {
@@ -5248,7 +5247,9 @@ body.vivid-fullscreen-active #SecondaryHeader {
     position: relative;
     width: 100%;
     margin: 30px 0;
+    margin-bottom: 0px;
     padding: 20px;
+    padding-bottom: 50px;
     box-sizing: border-box;
 }
 
@@ -5940,5 +5941,3 @@ body.vivid-fullscreen-active #SecondaryHeader {
     background: linear-gradient(to right, #2563eb, #3b82f6);
     transition: width 0.3s ease;
 }
-
-
