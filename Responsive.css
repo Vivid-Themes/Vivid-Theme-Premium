@@ -143,7 +143,7 @@
         gap: 10px;
     }
 
-    .vivid-variants-container .group-1 span {
+    .vivid-variants-container .group-1 span , .vivid-variants-container .group-3 span {
         width: 30px;
         height: 30px;
     }
@@ -741,25 +741,29 @@
     }
 
     .vivid-secondary-menu #LinkList2 ul {
-        height: 28px;
+        height: 20px;
     }
 
     .vivid-secondary-menu #LinkList2 ul li {
-        padding: 0px 10px;
+        padding: 0px 8px;
         margin: 0px 3px;
     }
 
     .vivid-secondary-menu #LinkList2 ul li a {
-        font-size: 10px;
-        gap: 6px;
+        font-size: 7px;
+        gap: 3px;
     }
 
     #LinkList3 ul li:first-child {
-        padding: 8px 12px;
+        padding: 6px;
     }
 
     #LinkList3 ul li:first-child a {
-        font-size: 8px;
+        font-size: 6px;
+    }
+   
+    .vivid-secondary-menu #LinkList2 .widget-content{
+        height: 20px;
     }
 
     /*-------------------Products--------------------*/
@@ -1229,6 +1233,18 @@ bottom: 25px;
         padding: 12px;
     }
 
+    .brand-images-slider .swiper , .brand-images-slider .swiper{
+        padding: 0px;
+    }
+
+    .brand-images-slider .swiper-slide{
+        height: 50px;
+    }
+    
+    #VividBrandImages{
+        margin-top: 0px;
+    }
+
     /*--------------------- Post List-------------------*/
     #VividPostList .vivid-post-list-item {
         padding: 3px;
@@ -1322,13 +1338,28 @@ bottom: 25px;
         height: 150px;
     }
 
-    #VividFeacturedPost h3 {
-        font-size: 12px;
+    #VividFeacturedPost .view-product-btn {
+        padding: 4px 8px;
+        font-size: 6px;
     }
 
-    #VividFeacturedPost .view-product-btn {
-        padding: 6px 10px;
-        font-size: 10px;
+    #VividFeacturedPost .old-price{
+        font-size: 6px;
+        margin: 0px !important;
+    }
+
+    #VividFeacturedPost .current-price{
+        font-size: 8px;
+        margin: 0px !important;
+    }
+
+    #VividFeacturedPost .product-content{
+        padding: 8px;
+    }
+
+    #VividFeacturedPost h3{
+        margin: 0px;
+        font-size: 7px;
     }
 
     /*---------------------Hot Post------------------*/
@@ -1397,12 +1428,22 @@ bottom: 25px;
     }
 
     .product-grid-slider .grid-content {
-        padding: 6px 12px;
-        min-height: 60px;
+        padding: 4px;
+        min-height: 40px;
     }
 
+    .product-grid-slider .grid-stock{
+        top: 90%;
+    }
 
-
+    .product-grid-slider .grid-title{
+        font-size: 12px;
+    }
+    
+    .product-grid-slider .grid-label{
+        bottom: 58px;
+    }
+    
     /*-------------------Overlay Menus---------------*/
 
     #WishlistProducts,
@@ -1471,7 +1512,7 @@ bottom: 25px;
         font-size: 20px;
     }
 
-    #product-stock.in-stock {
+    #product-stock.in-stock , #product-stock.out-of-stock {
         padding: 3px 8px;
         font-size: 12px;
     }
@@ -1495,9 +1536,26 @@ bottom: 25px;
         letter-spacing: 0px;
     }
 
-    .vivid-variants-container .group-1 span {
+    .vivid-variants-container .group-1 span , .vivid-variants-container .group-3 span {
         width: 20px;
         height: 20px;
+    }
+ 
+    .vivid-variants-container .group-2 span{
+        padding: 4px 8px;
+        border-radius: 3px;
+        font-size: 6px;
+    }
+
+    .variant-preview span{
+        font-size: 12px;
+    }
+
+    .vivid-post-full-view .action-group-3 .vivid-icon-btn, .vivid-size-guide-btn{
+        font-size: 8px;
+    }
+    .vivid-post-full-view .action-group-3{
+        padding-left: 10px;
     }
 
     .vivid-post-full-view .payment-icons img {
@@ -1748,6 +1806,15 @@ bottom: 25px;
         border-radius: 16px;
     }
 
+    .product-list-swiper .swiper-pagination-bullet-active{
+        width: 40px;
+    }
+
+    .product-list-swiper .swiper-pagination-bullet {
+        width: 15px;
+        height: 4px;
+        margin: 0 2px !important;
+    }
 }
 
 
@@ -1913,189 +1980,189 @@ bottom: 25px;
     /* Hot */
     .badge-hot {
         padding: 2px 8px;
-        font-size: 10px;
-        border-radius: 12px;
+        font-size: 6px;
+        border-radius: 7px;
     }
 
     /* New */
     .badge-new {
         padding: 2px 8px;
-        font-size: 10px;
-        border-radius: 8px;
+        font-size: 5px;
+        border-radius: 4px;
     }
 
     /* Best Seller */
     .badge-best-seller {
         padding: 2px 8px;
-        font-size: 10px;
-        border-radius: 14px;
+        font-size: 5px;
+        border-radius: 10px;
     }
 
     /* Deal */
     .badge-deal {
         padding: 2px 7px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 10px;
     }
 
     /* Trending */
     .badge-trending {
         padding: 2px 6px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 6px;
     }
 
     /* Popular */
     .badge-popular {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 12px;
     }
 
     /* Limited Time */
     .badge-limited-time {
         padding: 2px 7px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 6px;
     }
 
     /* Top Rated */
     .badge-top-rated {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 14px;
     }
 
     /* Free Shipping */
     .badge-free-shipping {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 10px;
     }
 
     /* Recommended */
     .badge-recommended {
         padding: 2px 9px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 14px;
     }
 
     /* Sponsored */
     .badge-sponsored {
         padding: 2px 7px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 6px;
     }
 
     /* Free */
     .badge-free {
         padding: 2px 6px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 4px;
     }
 
     /* Limited Stock */
     .badge-limited-stock {
         padding: 2px 7px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 8px;
     }
 
     /* On Sale */
     .badge-on-sale {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 10px;
     }
 
     /* Editor's Pick */
     .badge-editors-pick {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 12px;
     }
 
     /* Official */
     .badge-official {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 6px;
     }
 
     /* Eco-Friendly */
     .badge-eco-friendly {
         padding: 2px 9px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 14px;
     }
 
     /* Ships Today */
     .badge-ships-today {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 8px;
     }
 
     /* Pre-Order */
     .badge-pre-order {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 6px;
     }
 
     /* Back in Stock */
     .badge-back-in-stock {
         padding: 2px 7px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 10px;
     }
 
     /* Lowest Price */
     .badge-lowest-price {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 12px;
     }
 
     /* Premium */
     .badge-premium {
         padding: 2px 9px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 14px;
     }
 
     /* Luxury */
     .badge-luxury {
         padding: 2px 9px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 14px;
     }
 
     /* Members Only */
     .badge-members-only {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 10px;
     }
 
     /* Coming Soon */
     .badge-coming-soon {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 6px;
     }
 
     /* Seasonal */
     .badge-seasonal {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 8px;
     }
 
     /* Giftable */
     .badge-giftable {
         padding: 2px 8px;
-        font-size: 10px;
+        font-size: 5px;
         border-radius: 14px;
     }
 
@@ -2163,27 +2230,38 @@ bottom: 25px;
         width: 10px;
         top: 2px;
         right: 2px;
+        font-size: 5px !important;
+    }
+
+    #LinkList2{
+        width: calc(100% - 40px);
     }
 
     #SecondaryMenu {
-        height: 35px;
-    }
-
-    .vivid-secondary-menu #LinkList2 ul {
         height: 20px;
     }
 
+    .vivid-secondary-menu #LinkList2 ul {
+        height: 15px;
+    }
+
     .vivid-secondary-menu #LinkList2 ul li {
-        padding: 0px 6px;
+        padding: 0px 4px;
+        margin: 0px 1px;
     }
 
     .vivid-secondary-menu #LinkList2 ul li a {
-        font-size: 7px;
-        gap: 3px;
+        font-size: 5px;
+        gap: 2px;
     }
 
     #LinkList3 ul li:first-child {
-        padding: 6px 10px;
+        padding: 4px;
+    }
+
+    #LinkList3 ul li:first-child a {
+        font-size: 4px;
+        gap: 2px;
     }
 
     /*----------------------Slider------------------------*/
@@ -2193,7 +2271,7 @@ bottom: 25px;
     }
 
     #VividHeaderSlider .swiper {
-        height: 350px;
+        height: 300px;
         border-radius: 6px;
     }
 
@@ -2201,7 +2279,6 @@ bottom: 25px;
         width: 90%;
         left: 10px;
         bottom: 60px;
-        text-align: center;
     }
 
     #VividHeaderSlider .slider-left h4 {
@@ -2262,7 +2339,7 @@ bottom: 25px;
     .banners-images .title {
         font-size: 7px;
         margin: 6px;
-        padding: 1px 3px;
+        padding: 2px 5px;
         letter-spacing: 0.5px;
     }
 
@@ -2271,6 +2348,7 @@ bottom: 25px;
         padding: 10px;
     }
 
+    
     /*--------------------------Services Banners----------------------*/
 
     .vivid-services-wrapper .vivid-services-widget {
@@ -2360,6 +2438,11 @@ bottom: 25px;
         height: 250px;
     }
 
+    /* ----------------Fullpage View----------------- */
+
+    .vivid-fullpage-slider .vivid-main-slider{
+        height: 300px;
+    }
 
     /*------------------------------Checkout Page---------------------------*/
 
@@ -2460,9 +2543,13 @@ bottom: 25px;
     #VividHotPost .current-price {
         font-size: 11px;
     }
+
+    .vivid-countdown-timer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
-/* Responsive styles for 567px breakpoint */
 @media screen and (max-width: 567px) {
     .back-to-top {
         width: 50px;
