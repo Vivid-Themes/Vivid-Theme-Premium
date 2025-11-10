@@ -1338,6 +1338,7 @@ body.vivid-fullscreen-active #SecondaryHeader {
     font-family: 'Inter', sans-serif;
     color: #2d3436;
     width: 100%;
+    max-width: var(--max-width);
 }
 
 #CartPage .cart-page-header {
@@ -5943,4 +5944,5 @@ body.vivid-fullscreen-active #SecondaryHeader {
     background: linear-gradient(to right, #2563eb, #3b82f6);
     transition: width 0.3s ease;
 }
+
 
