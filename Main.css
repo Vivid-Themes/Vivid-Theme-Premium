@@ -3041,6 +3041,7 @@ body.vivid-fullscreen-active #SecondaryHeader {
 
 #VividHeroSection {
     width: 100%;
+    max-width: var(--max-width);
     position: relative;
     overflow: hidden;
     padding: 50px;
@@ -4435,6 +4436,7 @@ body.vivid-fullscreen-active #SecondaryHeader {
 
 #ProductCategories {
     width: 100%;
+    max-width: var(--max-width);
 }
 
 /* Container */
@@ -5941,3 +5943,4 @@ body.vivid-fullscreen-active #SecondaryHeader {
     background: linear-gradient(to right, #2563eb, #3b82f6);
     transition: width 0.3s ease;
 }
+
